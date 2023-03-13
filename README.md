@@ -31,7 +31,7 @@ Clone this repository to your local machine.\
 Import the project into your favorite IDE as a Gradle project.\
 Configure your MySQL database settings in the application.yaml file.\
 Run the application using the ./gradlew bootRun command.\
-The application will be available at http://localhost:8080.\
+The application will be available at http://localhost:8080.
 
 API Documentation\
 The API documentation for this application can be found at http://localhost:8080/star-backend/swagger-ui/index.html \
