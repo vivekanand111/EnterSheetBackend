@@ -11,7 +11,7 @@ Spring Data JPA\
 Spring Security\
 JWT Authentication\
 MySQL\
-Gradle\
+Gradle
 
 Features
 
@@ -21,7 +21,7 @@ Employees can log in and fill out details of their tasks.\
 Administrators can view and download reports of every employee's tasks.\
 Tasks can be entered for each day of the week.\
 The application uses JWT authentication to secure access to resources.\
-The backend is built using Spring Boot and Spring Data JPA to manage data.\
+The backend is built using Spring Boot and Spring Data JPA to manage data.
 
 Installation
 
