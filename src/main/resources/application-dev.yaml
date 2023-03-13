@@ -1,0 +1,32 @@
+server:
+  servlet:
+    context-path: /star-backend
+  # Default port
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:8889/time-sheet
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+  security:
+    user:
+      name: vivek
+      password: $2a$12$d8gNWQsblW0smwfudXhSeewf21hdtanlALz5GW/GcVhoonwPCAl8i
+    jwt:
+      secret: 4IE8j/`DRt(>hV9q+K3}Xa+(rw5>+.Rvjo-8^,r=cyIzq9nE7s7%uNsw|=mD2PFq
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: XXXXXXXX
+    password: XXXXXXXX
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
